@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx babel-node ./src/index.js",
+    "build": "npx babel src -d out --source-maps",
     "test": "npx jest ./src"
   },
   "author": "",

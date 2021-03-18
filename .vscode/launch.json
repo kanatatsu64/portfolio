@@ -11,6 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
+            "preLaunchTask": "build",
             "program": "${workspaceFolder}/out/index.js",
             "sourceMaps": true,
             "outFiles": ["${workspaceRoot}/out"]
