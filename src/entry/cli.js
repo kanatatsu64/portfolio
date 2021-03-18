@@ -18,7 +18,7 @@ function initialize(serviceLocator) {
     serviceLocator.register('auth-session', new AuthSessionApplication(serviceLocator, authSessionRepository))
 }
 
-export function main() {
+function main() {
     const session = new InMemorySession()
     const serviceLocator = new ServiceLocator()
 
@@ -26,3 +26,5 @@ export function main() {
 
     repl(session, serviceLocator)
 }
+
+module.exports = main
