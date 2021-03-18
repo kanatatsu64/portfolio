@@ -1,6 +1,6 @@
 module.exports = {
     moduleDirectories: [
-        "<rootDir>",
+        "<rootDir>/src",
         "node_modules"
     ]
 }
